@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/brow_conner">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/brow_conner"
+        android:id="@+id/Relative_laoutDialog"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn có chắc chọn đáp án này không?"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/tl"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/tv_yes"
+            android:background="@drawable/blue_conner"
+            android:text="Có"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/tv_No"
+            android:background="@drawable/blue_conner"
+            android:text="Không"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="230dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

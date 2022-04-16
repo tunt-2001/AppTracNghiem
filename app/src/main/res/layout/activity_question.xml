@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".QuestionActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Câu Hỏi: "
+        android:id="@+id/text_view_question_count"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điểm: "
+        android:id="@+id/text_view_Score"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Môn Học: "
+        android:id="@+id/text_view_category"
+        android:textColor="@color/white"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/brow_conner"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:30"
+        android:id="@+id/text_view_countdown"
+        android:freezesText="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_cauHoi_lv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/brow_conner"
+            android:backgroundTint="#B75BE8"
+            android:paddingTop="40dp"
+            android:paddingBottom="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="Câu Hỏi?"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_QuestionNum1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blue_conner"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:textSize="18dp"
+            android:text="Câu số"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group"
+        android:layout_marginTop="30dp"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Lựa chọn 1"
+            android:textSize="20dp"
+            android:id="@+id/radio_btn1"
+            android:freezesText="true"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Lựa chọn 2"
+            android:id="@+id/radio_btn2"
+            android:textSize="20dp"
+            android:freezesText="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Lựa chọn 3"
+            android:id="@+id/radio_btn3"
+            android:textSize="20dp"
+
+            android:freezesText="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Lựa chọn 4"
+            android:id="@+id/radio_btn4"
+            android:textSize="20dp"
+            android:freezesText="true"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#66CDAA"
+        android:textColor="@color/black"
+        android:id="@+id/btn_confirm_next"
+        android:layout_margin="20dp"
+        android:freezesText="true"
+        android:textSize="20dp"
+        android:text="Xác nhận"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>

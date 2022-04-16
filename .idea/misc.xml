@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/drawable/blue_conner2.xml" value="0.124" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/drawable/brow_conner.xml" value="0.124" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/layout/activity_chinh_sua_ttavtivity.xml" value="0.12" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/layout/activity_dang_ky.xml" value="0.1" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/layout/activity_question.xml" value="0.16030534351145037" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/layout/activity_thong_tin_ca_nhan.xml" value="0.264" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/layout/activity_welcome_do_vui.xml" value="0.1" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/layout/dialog_answer.xml" value="0.11302083333333333" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/layout/dialog_chucmung.xml" value="0.11302083333333333" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/layout/dialog_logout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/layout/dialog_thatbai.xml" value="0.11302083333333333" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/layout/dialog_win.xml" value="0.11302083333333333" />
+        <entry key="..\:/Subjects/PRO1121/AppTracNghiem/app/src/main/res/layout/gt_layout.xml" value="0.109375" />
+        <entry key="..\:/Users/Dell E7250/Desktop/AppTracNghiem/app/src/main/res/layout/activity_dang_nhap.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
